@@ -1,0 +1,129 @@
+body {
+  /* background-color: white; */
+}
+
+h1 {
+  padding-top: 10px;
+  font-size: 25px;
+  padding:0px;
+  margin: 0px;
+  line-height:50px;
+  float:left;
+  font-style: bold;
+}
+h2 {
+  font-size: 15px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+}
+h3 {
+  font-size: 12px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 0px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+li {
+  float: right;
+}
+li div {
+  color: white;
+  text-align: center;
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: underline;
+}
+p {
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.bodytext {
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 12px;
+  text-align: justify;
+}
+
+.libanner1 {
+  padding: 20px 10px;
+}
+.libanner2 {
+  padding: 10px 10px;
+}
+.banner1 {
+  background-color: #c11515;
+  color: white;
+  width: auto;
+  height: 50px;
+  padding-left:20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.banner2 {
+  background-color: #434343;
+  color: white;
+  width: auto;
+  height: 35px;
+  margin-bottom: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.column {
+  float: left;
+}
+.column.left {
+  background-color: white;
+  padding-left: 20px;
+  padding-right: 40px;
+}
+.column.right {
+  background-color: white;
+  padding-top: 0px;
+  padding-left: 10px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+}
+.left {
+  width: 60%;
+}
+.right {
+  width: 25%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.splashimage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+.rightimages {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.footer {
+  background-color: #434343;
+  color: white;
+  width: auto;
+  height: auto;
+  margin-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
